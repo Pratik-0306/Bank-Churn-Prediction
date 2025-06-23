@@ -10,8 +10,6 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.callbacks import EarlyStopping, TensorBoard
 
-print("Hello World!")
-
 # importing the trained model:
 model = load_model('model.h5')
 
